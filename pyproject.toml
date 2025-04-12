@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "yt-downloader"
+version = "0.1.0"
+description = "A YouTube downloader using Flask and yt-dlp"
+authors = ["swonyyyy <ilkinnsibli1@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+Flask = "^2.2.5"
+yt-dlp = "^2023.4.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
